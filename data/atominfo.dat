@@ -1,0 +1,28 @@
+**Symbol**      **Atomic Number (Z)**      **Mass (u.m.a.)** 
+    C			6		     12.0000000
+    C1     		6     		     12.0000000
+    C2     		6     		     13.0033548378
+    CZ     		7     		     12.0000000
+    H      		1     		     1.007825032
+    H1     		1     		     1.007825032
+    H2     		1     		     2.014101778
+    HZ     		2     		     1.007825032
+    N      		7     		     14.0030740052
+    N1     		7    	 	     14.0030740052
+    N2     		7     		     15.0001088984
+    NZ     		8     		     14.0030740052
+    O      		8     		     15.99491463
+    O1     		8     		     15.99491463
+    O2     		8     		     16.9991312
+    O3     		8     		     17.9991603
+    OZ     		9     		     15.99491463
+    F      		9     		     18.99840322
+    FZ     		10    		     18.99840322
+    I      		53    		     126.904473
+    IZ     		54    		     126.904473
+
+EOF
+
+# I. Mills, T. Cvitas, K. Homann, N. Kallay, and K. Kuchitsu in Quantities, 
+Units and Symbols in Physical Chemistry, Blackwell Scientific Publications, 
+Oxford, UK, 1988. [Copyright 1988 IUPAC]

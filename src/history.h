@@ -1,0 +1,1 @@
+int History(char *prog, char *gamesspath, int pos, int nindiv, int natoms, int nstep, int *conv, int gmsver, int ncore, double *energy, double absenrgy, defmol *MPop, Txyz *XYZ, Tcnct *cnct, Tzmat *zmat);

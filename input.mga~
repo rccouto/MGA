@@ -1,0 +1,89 @@
+**Main
+*Title
+ Asparagine - Genetic Algorithm - AM1
+*EEC_Program_path
+ /usr/local/bin/rungms
+*ABS_Energy_Comparison
+ 1E-04
+*NSTEP
+ 200
+*Optimize_Structures
+ on
+*Remove_OUT_Files
+ on
+*Remove_DAT_Files
+ on
+*Print_Population
+ off
+*Pop_Backup
+ on
+*Restart_from_Backup
+ on
+
+**GA
+*Type_of_GA
+ IGA
+*Population_size
+ 4
+*Seed
+ 1
+*Number_Rotation_Groups
+ 4
+*Groups_to_be_Rotate
+ 3 2 7  8  9 17
+ 2 2 3 10 11
+ 4 1 4  5  6 15 16
+ 8 1 2  3  7  8  9 10 11 12 17 
+*Generations
+ 150
+*Generation_After_Convergence
+ 5
+*Type_of_Mating
+ single
+*Percentage_of_Mutation
+ 80
+*Rotation_Mutation_Range
+ 100 180 
+
+**Molecule
+*Number_of_Atoms
+ 17
+*ZMAT
+ C
+ C   1   1.289681  1.789681
+ N   2   1.225760  1.725760   1    81.783   141.783 
+ C   1   1.291990  1.791990   2    82.962   142.962   3   131.288   221.288 
+ O   4   0.985606  1.485606   1    91.333   151.333   2   -27.130    62.870 
+ N   4   1.073969  1.573969   1    86.467   146.467   2  -207.359  -117.359 
+ C   2   1.289609  1.789609   1    80.474   140.474   4     9.814    99.814 
+ O   7   0.997295  1.497295   2    90.994   150.994   1   -14.402    75.598 
+ O   7   1.249974  1.749974   2    89.503   149.503   1  -194.403  -104.403 
+ H   3   0.749961  1.249961   2    79.499   139.499   1    12.638   102.638 
+ H   3   0.750025  1.250025   2    79.500   139.500   1  -107.358   -17.358 
+ H   2   0.749978  1.249978   1    77.022   137.022   4  -109.900   -19.900 
+ H   1   0.750028  1.250028   4    78.588   138.588   6    32.135   122.135 
+ H   1   0.750005  1.250005   4    78.586   138.586   6   -86.853     3.147 
+ H   6   0.749974  1.249974   4    90.002   150.002   1  -224.998  -134.998 
+ H   6   0.749979  1.249979   4    89.999   149.999   1   -44.999    45.001 
+ H   9   0.699999  1.199999   7    79.471   139.471   2   -44.998    45.002
+
+**Force_Field
+*Potential
+ Semi-Empiric
+*Empiric_Force_Field
+ S1  MMFF94
+*Levels_of_calculation
+ S1  RHF
+*Basis_sets
+ S1  AM1
+*Multiplicity
+ S1  1
+*Molecular_charge
+ S1  0
+*External_EEC_Programs
+ All GAMESS
+*GAMESS_Version_Number
+ 00
+*NCores_Parallel_GAMESS
+ 1
+**End

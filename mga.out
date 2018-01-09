@@ -1,0 +1,150 @@
+Initialized at Thu Dec 12 15:42:33 2013
+
+	***********************************************************
+	**                      Program MGA                      **
+	**             (Molecular Genetic Algorithm)             **
+	**                                                       **
+	**                                                       **
+	** Principal Author:                                     **
+	**        Freddy F. Guimaraes                            **
+	**        email: freddy@quimica.ufg.br                   **
+	**                                                       **
+	** Authors:                                              **
+	**        Rafael C. Couto, Fabrício S. Paranhos.         **
+	**                                                       **
+	***********************************************************
+Reading input file: |#############|
+
+ **  Input description  **  
+ =========================
+  * Main *
+    Title: Asparagine - Genetic Algorithm - AM1
+
+    ABS Energy Comparison: 0.000100;
+    NSTEP: 200;
+    Optimize Structures: on;
+    Remove .OUT Files:   on;
+    Remove .DAT Files:   on;
+    Print Init. Pop.:    off;
+    Gamess path: /home/rafael/Programas/gamess/rungms;
+  * Genetic Algorithm *
+    Type of GA: Inclusive Genetic Algorithm;
+    Population Size: 6;
+    Seed: 1;
+    Generations: 150;
+    Generations After Convergence: 10;
+    Type of Mating: Single Cut;
+    Percentage of Mutation: 30;
+    Rotation Mutation Range: 120 - 220;
+    Number of Rotation Groups : 6;
+  * Molecule *
+    Total number of atoms: 17;
+  * Force Field *
+    Interatomic Potential: Semi-Empiric;
+    Levels Of Calculation: RHF;
+    Basis Set: PM3;
+    Multiplicity: 1;
+    Molecular Charge: 0;
+    Electronic Structure Package: GAMESS;
+  * Cartesian Coordinates of Average Initial Molecule *
+    C     -1.19724157      0.73418697      3.60399827 
+    C     -1.33996776      0.00000000      2.25818391 
+    N     -1.78723184     -1.39456570      2.43986751 
+    C     -0.64396605      2.16552461      3.45269745 
+    O     -0.66368141      2.75030833      2.36441372 
+    N     -0.15548703      2.72808121      4.54714354 
+    C      0.00000000      0.00000000      1.49997400 
+    O      1.08555815     -0.00001866      2.11422828 
+    O      0.00000000      0.00000000      0.00000000 
+    H     -2.65770273     -1.40449659      2.93190797 
+    H     -1.10211524     -1.89908778      2.96534132 
+    H     -2.03197383      0.49085290      1.72889473 
+    H     -2.09744598      0.78447347      4.03661737 
+    H     -0.57519714      0.21204634      4.18747054 
+    H      0.21699732      3.65531424      4.50916584 
+    H     -0.15904425      2.22572668      5.41177368 
+    H     -0.89566887      0.00003126     -0.31666288 
+
+
+**  Generating Initial Population: |####################################|
+
+**  Generating Input for Eletronic Structure Calculations: |########################################|
+
+**  Running Eletronic Structure Calculations: |#&&&##[GetXYZGA]: Energy(GamessP0001.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0002.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0003.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0004.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0005.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0006.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0007.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0008.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0009.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0010.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0011.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0012.dat) = 0.000000 *
+#|                                                
+**  Re-Optimizing Population: |#####################################&&&##[GetXYZGA]: Energy(GamessP0001.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0002.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0003.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0004.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0005.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0006.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0007.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0008.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0009.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0010.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0011.dat) = 0.000000 *
+##&&&##[GetXYZGA]: Energy(GamessP0012.dat) = 0.000000 *
+#|                                                
+
+** Applying Predator Operator: |#
+ABS=0.000100
+#|
+
+
+ ======== Generation's [0] Analysis ========
+
+  Work Population's Energy (Hartree):
+   E. Indiv.[1] = 0.000000 *
+   E. Indiv.[2] = 0.000000 *
+   E. Indiv.[3] = 0.000000 *
+   E. Indiv.[4] = 0.000000 *
+   E. Indiv.[5] = 0.000000 *
+   E. Indiv.[6] = 0.000000 *
+  ________________________________________
+
+  Final Population's Energy (Hartree):
+   E. Indiv.[1] = 0.000000
+   E. Indiv.[2] = 0.000000
+   E. Indiv.[3] = 0.000000
+   E. Indiv.[4] = 0.000000
+   E. Indiv.[5] = 0.000000
+   E. Indiv.[6] = 0.000000
+  --------------------------- 
+   Minimum Electronic Energy =   0.000000
+   Average Electronic Energy =   0.000000
+   Maximum Electronic Energy =   0.000000
+
+ ==========================================
+
+
+
+** GENERATION [1] **
+
+**  Generating New Molecules with Mating Operator: |##########|
+
+**  Generating New Molecules with Mutation Operator: |##|
+
+**  Generating Input for Eletronic Structure Calculations in GA: |##################|
+
+**  Running Eletronic Structure Calculations in GA: |#&&&##[GetXYZGA]: Energy(GamessP0007.dat) = 0.000000 *
+##H##&&&##[GetXYZGA]: Energy(GamessP0008.dat) = 0.000000 *
+##H##&&&##[GetXYZGA]: Energy(GamessP0009.dat) = 0.000000 *
+##H##&&&##[GetXYZGA]: Energy(GamessP0010.dat) = 0.000000 *
+##H##&&&##[GetXYZGA]: Energy(GamessP0011.dat) = 0.000000 *
+##H##&&&##[GetXYZGA]: Energy(GamessP0012.dat) = 0.000000 *
+##H#|                                                
+
+** Applying Predator Operator: |#
+ABS=0.000100
+#|

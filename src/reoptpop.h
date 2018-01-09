@@ -1,0 +1,1 @@
+int ReoptPop(char *prog, char *gamesspath, char *xyzname, char *datname, char *outname, char *rstname, int natoms, int nindiv, int nstep, int typga, int gmsver, int ncore, double *energy, Txyz *XYZ, Tcnct *cnct, Tzmat *zmat, defmol *MPop);

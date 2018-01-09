@@ -1,0 +1,28 @@
+VERSION = 21
+PROG = ga_$(VERSION).x
+#
+# Dec Alpha
+#
+#
+CFLAGS =  
+FFLAGS = -fast -O4 -xarch=v8plus -explicitpar -stackvar -mp=sun -vpara
+LDR = f77
+#
+#
+#
+OBJS = 	 ga.o \
+	 read_pot_cons.o gener_init_pop.o read_pop.o read_in.o minibfgs.o \
+         minicg.o diffv2.o diffvgp.o diffvmm.o diffvtip3p.o diffvtip4p.o \
+         diffvtip5p.o pots2.o routines.o pred.o print.o sort.o ang-cart.o \
+         mating.o mutating.o funcs.o cor_const.o hist.o cg.o bfgs.o 
+#
+ga:	$(OBJS) $(SOBJ)  
+	$(LDR) -o $(PROG) $(OBJS) $(SOBJ) $(FFLAGS)
+
+clean:	 
+	rm -f $(OBJS)
+
+veryclean:  
+	rm -f $(OBJS) $(PROG) core 
+
+
